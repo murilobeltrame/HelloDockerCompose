@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>TaskList</h1>
+<fieldset>
+    <label>
+      Descrição
+      <input type="text" />
+    </label>
+    <button type="button">Ok</button>
+</fieldset>
+<hr />
+<ul>
+    <li *ngFor="let todo of todos">
+        {{todo.description}}
+    </li>
+</ul>
